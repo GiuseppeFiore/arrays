@@ -18,8 +18,8 @@ const reversedTeachers = [];
 for (let i = teachers.length - 1; i >= 0; i--) {
   reversedTeachers.push(teachers[i]);
 }
-// OPTION SOLUTION reversedTeacher[teachers.length -1-i]] = teachers[i];
-// OPTION SOLUTION reversedTeachers[reversedTeachers.length] = teachers[i];
+// OPTION SOLUTION:reversedTeacher[teachers.length -1-i]] = teachers[i];
+// OPTION SOLUTION:reversedTeachers[reversedTeachers.length] = teachers[i];
 
 console.log(reversedTeachers);
 
@@ -35,7 +35,7 @@ for (let i = 0; i < teachers.length; i++) {
   }
 }
 
-// OPTION SOLUTION longNames[longNames.length] = teachers[i];
+// OPTION SOLUTION: longNames[longNames.length] = teachers[i];
 console.log(longNames);
 
 
