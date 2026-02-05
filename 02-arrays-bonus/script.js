@@ -63,7 +63,7 @@ console.log(teachers);
 // Se teachers con la stringa Fabio sono uguali allora è presente e dara risultato true... se non compare false...
 let isFabioPresent = false;
 
-for (let i = 0; i < teachers.length; || isFabioPresent === true; i++) {
+for (let i = 0; i < teachers.length; i++) {
   if (teachers[i] === 'Fabio') {
     isFabioPresent = true;
   }
